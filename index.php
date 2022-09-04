@@ -15,7 +15,7 @@
     <h1 class="text-center mt-3">Srpska kinematografija</h1>
     <div class="dugmici">
         <div id="novi">
-            <a href="noviFilm.php"><button class="btn btn-primary" id="novi-film">Dodaj novi film</button></a>
+            <a href="noviFilm.php"><button class="btn btn-primary" id="dodaj-film">Dodaj novi film</button></a>
         </div>
         <div id="sort">
             <a href="sortipretraga.php"><button class="btn btn-primary" id="sort-pretraga">Sortiraj i pretraži film</button></a>

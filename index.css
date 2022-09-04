@@ -73,6 +73,13 @@ textarea:focus, input:focus{
     margin-bottom: 5px;
     margin-left: 15px;
 }
+#dodaj-film {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
 
 #pretrazi-polje {
     margin-left: 460px;
