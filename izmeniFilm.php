@@ -24,18 +24,20 @@
     $film = mysqli_fetch_object($result);
     ?>
 
-    <form method="post" class="text-center" id="izmeni-forma">
+    <form method="post" class="text-center" id="izmeni_forma">
 
         <input type="hidden" class="form-control" name="hidden-izmena-id" value="<?php echo $film->film_id; ?>">
 
         <div class="mb-3">
             <label class="form-label">Opis: </label>
-            <input type="text" class="form-control" name="opis" value="<?php echo $film->opis; ?>">
+            <textarea class="form-control" name="opis" rows="8"><?php echo $film->opis; ?></textarea>
         </div>
+
         <div class="mb-3">
-            <label class="form-label">Dodaj ulogu: </label>
-            <textarea class="form-control" name="dodaj_ulogu" rows="8"><?php echo $film->glavne_uloge; ?></textarea>
+            <label class="form-label">Dodaj uloge u filmu: </label>
+            <input type="text" class="form-control" name="dodaj_uloge" value="<?php echo $film->glavne_uloge; ?>">
         </div>
+        
 
         <input type="hidden" class="form-control" name="hidden-izmena-korisnik" value="<?php echo $film->korisnik_id; ?>">
 

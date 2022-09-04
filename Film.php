@@ -17,4 +17,12 @@ class Film
         return $conn->query($upit);
     }
 
+    public function sacuvajNoviFilm($naziv, $opis, $glavne_uloge, $zanr, $korisnik_id)
+    {
+        $conn = new mysqli("localhost", "root", "", "filmovi");
+        $upit = "insert into filmovi values (NULL, '$naziv', '$opis', '$glavne_uloge', '$zanr', '$korisnik_id')";
+
+        return $conn->query($upit);
+    }
+
 }
