@@ -44,8 +44,8 @@
                         <p class="card-text"><?php echo $filmovi['opis']; ?></p>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="jedanFilm.php?id=<?php echo $filmovi['film_id']; ?>"><button class="btn btn-primary">Otvori</button></a>
-                        <a href="obrisiFilm.php?id=<?php echo $filmovi['film_id']; ?>"><button type="button" class="btn btn-danger" name="btn_obrisi_film" value="<?php echo $filmovi['film_id']; ?>">Obriši</button></a>
+                        <a href="jedanFilm.php?film_id=<?php echo $filmovi['film_id']; ?>"><button class="btn btn-primary">Otvori</button></a>
+                        <a href="obrisiFilm.php?film_id=<?php echo $filmovi['film_id']; ?>"><button type="button" class="btn btn-danger" name="btn_obrisi_film" value="<?php echo $filmovi['film_id']; ?>">Obriši</button></a>
 
                     </div>
                     <div class="card-footer">

@@ -19,8 +19,6 @@ body {
 textarea:focus, input:focus{
   outline: none;
 }
-
-
 .col {
     width: 300px;
     padding: 0px;
@@ -31,7 +29,7 @@ textarea:focus, input:focus{
     margin: 10px 50px 0 50px;
 }
 
-#naslov-recept {
+#naslov-film {
     margin-top: 25px;
     margin-top: 25px;
 }
@@ -40,13 +38,14 @@ textarea:focus, input:focus{
     margin-top: 80px;
 }
 
-#button_izmeni {
+#button_izmeni_film {
     margin-top: 20px;
     width: 150px;
     margin-left: 550px;
+    color: black;
 }
 
-#forma-izmena {
+#izmeni-forma {
     margin-top: 25px;
     margin-left: 520px;
     width: 40%;
